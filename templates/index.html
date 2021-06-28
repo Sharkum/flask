@@ -1,0 +1,22 @@
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='../styles/materialize.css') }}" media="screen,projection">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link rel="stylesheet" type="text/css" href="..\static\styles\style2.css">
+</head>
+
+
+<body>
+
+    <h2>Sentiment Analysis</h2>
+    <p>Test your own:</p>
+
+    <form class="form-" action = "/predict/" method="post">
+        <div>
+            <input id="Review" type="text" class="form-control"  name="Review" placeholder="eg: I have bought several of the Vitality canned dog food products and have found them all to be of good quality."><br>
+            <button class="btn waves-effect waves-light input-field" type="submit"><span>Guess Sentiment</span><i class="material-icons right"></i></button>
+        </div>
+    </form>
+
+</body>
+</html>

@@ -1,0 +1,68 @@
+html {
+  width: auto;
+  height:100%;
+  /* background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnOOa9UTOl_xjVF5N77_aDNalaOBg8FAU1IA&usqp=CAU'); */
+  background: url('https://static01.nyt.com/images/2019/11/29/business/29onlinereviews-digital/29onlinereviews-superJumbo.jpg?quality=90&auto=webp');
+
+  background-repeat: no-repeat;
+  background-size: 100%;
+  image-rendering: crisp-edges;  /* box-sizing: border-box; */
+ }
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    /* width: auto; */
+    margin: 10px auto;
+    font-size: 20px;
+    text-align: center;
+}
+
+textarea {
+    font-family: Helvetica, Arial, sans-serif;
+    /* width: auto; */
+    margin: 10px auto;
+    font-size: 20px;
+  }
+/* .progress-wrapper {
+    border: 1px solid #CCC;
+    height: 15px;
+    width: 100%;
+}
+.progress {
+    background: #DDD;
+    height: 100%;
+    width: 0%;
+} */
+
+textarea, button {
+    border: 1px solid #CCC;
+
+}
+
+input{
+    padding: 10px;
+    resize: none;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-top: 0;
+    width: 50% !important;
+    height:5rem !important;
+    border-width: 2px !important;
+    /* border-style: solid !important; */
+    border-color: white !important;
+}
+
+button{
+    background: white !important;
+    padding: 5px !important;
+    cursor: pointer ;
+    margin-top: 3em !important;
+
+}
+
+body p{
+  margin-top: 3em;
+}
+span{
+  color: black !important;
+}
